@@ -1,0 +1,125 @@
+.content{
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+min-height: 450px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 700px;
+margin-top: 15px;
+
+}
+
+h2 {
+    font-size: 40px;
+    color: #0583F2;
+    margin-left: 15px;
+}
+
+.typing {
+    font-size: 29px;
+    color: white;
+    
+}
+
+p {
+    font-weight: 500;
+    margin-left: -135px;
+    padding-top: 8px;
+    color: white;
+    margin-bottom: 3em;
+}
+
+button {
+    margin-top: 15px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    background-color: #262626 ;
+    border: 1px solid #0583F2;
+}
+
+button:hover{
+    background-color: #0583f2ce;
+    color: white;
+    /* border: 1px solid black; */
+    transition: .5s;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-links {
+    padding: 4em;
+}
+
+.logo-container {
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #444444;
+    box-shadow:5px 7px 25px rgba(0, 0, 0, 0.5);
+    margin: 1.5em;
+}
+
+div img {
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+}
+
+div img:hover {
+    transform: scale(1.2);
+}
+
+
+.social-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+        
+}
+
+
+.social-links li {
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.social-links li a {
+    color: white;
+    font-size: 30px;
+}
+
+
+.FaLinkedin:hover{
+    color: #0583F2;
+    transition: .3s;
+}
+
+.FaGithub:hover {
+    color: rgba(0, 0, 0, 0.527);
+    transition: .3s;
+}
+
+.FaInstagram:hover {
+    color: rgba(247, 13, 157, 0.418);
+    transition: .3          s;
+}
+
+
+
+
+
+
